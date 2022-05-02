@@ -10,9 +10,51 @@ background-color: lavender;
 .noticias{
  background-color: lavender;
 }
-  .nota2{
+.nota{
   background-color: pink;
   }
 .piePagina{
   background-color: olive;
   }
+selector{
+  propiiedad :
+}
+/* selector por id */
+#tituloprincipal{
+  text-align: center;
+}
+/* selector conbinador de descendientes */
+nav li{
+  display: inline-block;
+
+}
+/* multiple selectores */
+h2,h3,h4,h5{
+  color: purple;
+}
+/* selector conbinador de hijo */
+ul>li{
+  list-style: none;
+
+}
+/* selector usando clases y etiqueta */
+. galeria img{
+  width: 200px;
+  height: auto;
+}
+/* ppseudoclases */
+.navPrincipal li: hover{
+  background-color: green;
+  transition-delay: 0.3s;
+  transition-timing-function: ease-in-out;
+  transition-property:background-color;
+}
+.exciting-text::afte{
+  content: " <- exciting!";
+  color:green;
+}
+
+.boring-text::after{
+  content:" <- boring!";
+  color:red;
+}
