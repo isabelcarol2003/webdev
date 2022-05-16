@@ -1,5 +1,6 @@
 .cabecera {
 background-color: lavender;
+height: 200px;
  }
 .navPrincipal{
  background-color: pink;
@@ -19,15 +20,41 @@ background-color: lavender;
 selector{
   propiedad :
 }
+.cabecera img{
+  display: inline-block;
+  width: 150px;
+  border-radius: 100%;
+  position: relative;
+  right: 440px;
+  top: 25px;
+
+}
+.cabecera h3{
+  display: inline-block;
+  position: relative;
+  left:60px;
+  bottom: 35px;
+}
+
 /* selector por id */
 #tituloprincipal{
-display: block;
+display: inline-block;
   width: auto;
-  text-align:center;
-  padding: 10px;
-  border:  3px solid black;
-  border-radius: 10px;
-  margin:  10px;
+  position: relative;
+  left: 250px;
+  bottom: 65px;
+}
+.nota1{
+  background-color: purple;
+  display: inline-block;
+  width:48%;
+  position: relative;
+}
+.nota2{
+  background-color: purple;
+  display: inline-block;
+  width:48%;
+  position: relative;
 }
 /* selector conbinador de descendientes */
 nav li{
@@ -47,13 +74,15 @@ ul>li{
 .galeria img{
   width: 200px;
   height: auto;
+
+}
+.navPrincipal li{
+  background-color: grey;
 }
 /* ppseudoclases */
 .navPrincipal li:hover{
   background-color: green;
-  transition-delay: 0.3s;
-  transition-timing-function: ease-in-out;
-  transition-property:background-color;
+
 }
 .exciting-text::after{
   content:" <- exciting!";
