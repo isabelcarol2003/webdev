@@ -1,3 +1,4 @@
+/* coleres de las partes  */
 .cabecera {
 background-color: lavender;
 height: 200px;
@@ -20,19 +21,20 @@ height: 200px;
 selector{
   propiedad :
 }
+/* partes de la cabecera*/
 .cabecera img{
   display: inline-block;
   width: 150px;
   border-radius: 100%;
   position: relative;
-  right: 440px;
+  right:550px;
   top: 25px;
 
 }
 .cabecera h3{
   display: inline-block;
   position: relative;
-  left:60px;
+  left:30px;
   bottom: 35px;
 }
 
@@ -44,18 +46,53 @@ display: inline-block;
   left: 250px;
   bottom: 65px;
 }
-.nota1{
-  background-color: purple;
-  display: inline-block;
-  width:48%;
+.noticias h3{
+  text-align: center;
   position: relative;
+  top: 10px;
+}
+.nota1 img{
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  top: 10px;
+  width: auto;
+  height: 300px;
+}
+
+
+.nota1{
+  background-color: lavender;
+  display: inline-block;
+  width:47%;
+  height: 400px;
+margin: 10px;
 }
 .nota2{
-  background-color: purple;
+  background-color: lavender;
   display: inline-block;
-  width:48%;
-  position: relative;
+  width: 47%;
+  height: 400px;
+  margin: 10px;
 }
+.nota2 img{
+  display: inline-block;
+  position: relative;
+  left: 25%;
+  width: 300px;
+  height: auto;
+}
+.nota2 h4{
+  text-align: center;
+}
+
+.nota2 p,a{
+  width: 90%;
+  position: relative;
+  left: 30px;
+  padding: 10px;
+}
+
 /* selector conbinador de descendientes */
 nav li{
   display: inline-block;
@@ -71,10 +108,23 @@ ul>li{
 
 }
 /* selector usando clases y etiqueta */
+.galeria{
+  height: 600px;
+  background-color: lavender;
+}
 .galeria img{
+  background-color: olive;
+  margin:7px;
   width: 200px;
-  height: auto;
-
+  height: 200px;
+ border-radius:10px;
+ border:2px solid black;
+ box-shadow: 17px 10px 10px 3px;
+}
+#pfixed{
+  position: absolute;
+ right:  100px;
+ top: 50px;
 }
 .navPrincipal li{
   background-color: grey;
