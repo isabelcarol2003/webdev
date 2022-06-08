@@ -1,0 +1,68 @@
+.cabecera {
+background-color:pink;
+}
+.navPrincipal {
+background-color:pink;
+}
+.pricipal {
+background-color: pink;
+}
+.h3{
+  background-color: pink;
+}
+.infoclave1{
+  background-color: pink;
+}
+.infoclave2{
+  background-color: pink;
+}
+.cabecera img{
+  display: inline-block;
+  height: 200px;
+  width: 300px;
+  position: relative;
+  top:35px;
+}
+.cabecera h1{
+  display: inline-block;
+  position: relative;
+  right: -60px;
+}
+h2{
+  display: inline-block;
+  position: relative;
+  right: 150px;
+  top:40px;
+}
+.arriba{
+  align-items: center;
+  border-bottom: 2px;
+}
+.infoclave1{
+  background-color: lavender;
+  display: inline-block;
+  width:47%;
+  height: 300px;
+margin:  10px;
+}
+.img1{
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  width: auto;
+  height: 300px
+}
+.infoclave2{
+  background-color: lavender;
+  display: inline-block;
+  width:47%;
+  height: 300px;
+margin-top: 10px;
+}
+.img2{
+  display: inline-block;
+  position: relative;
+  left: 35%;
+  width: auto;
+  height: 300px
+}
