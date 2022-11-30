@@ -1,7 +1,9 @@
+ 
 .tonteria{
-  height: auto;  
-  background-color: rgb(226, 139, 197)
-} 
-.navbar{
- background-color: rgb(61, 53, 53);   
+  background-color:rgb(197, 150, 241)
+  
+}
+.tonteria{
+  font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: -0.05em;
 }
